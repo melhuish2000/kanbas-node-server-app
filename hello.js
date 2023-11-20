@@ -1,6 +1,6 @@
 const HelloRoutes = (app) => {
   const hello = (req, res) => {
-    res.send("Life is good!");
+    res.send("Life is good 123!");
   };
 
   app.get("/hello", hello);
