@@ -31,5 +31,7 @@ function CourseRoutes(app) {
     );
     res.sendStatus(204);
   });
+
+  
 }
 export default CourseRoutes;
