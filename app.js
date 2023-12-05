@@ -4,7 +4,6 @@ import CourseRoutes from "./courses/routes.js";
 import ModuleRoutes from "./modules/routes.js";
 import cors from "cors";
 import mongoose from "mongoose";
-mongoose.connect("mongodb://127.0.0.1:27017/kanbas");
 import Hello from "./hello.js";
 import UserRoutes from "./users/routes.js";
 import session from "express-session";
